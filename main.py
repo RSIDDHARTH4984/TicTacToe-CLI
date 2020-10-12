@@ -1,5 +1,5 @@
 from colorama import Fore,Back,init
-
+init()
 print(Fore.CYAN+'''Simple CLI TicTacToe Game In Python''')
 
 
