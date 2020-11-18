@@ -1,4 +1,5 @@
 from colorama import Fore,Back,init
+import time
 init()
 print(Fore.CYAN+'''Simple CLI TicTacToe Game In Python''')
 
@@ -37,12 +38,14 @@ def play_game():
 
     # Flip to the other player
     flip_player()
-  
+	  
   # Since the game is over, print the winner or tie
   if winner == "X" or winner == "O":
     print(winner + " won.")
+    time.sleep(5)
   elif winner == None:
     print("Tie.")
+    time.sleep(5)
 
 
 # Display the game board to the screen
