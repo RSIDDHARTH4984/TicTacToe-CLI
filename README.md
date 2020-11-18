@@ -1,4 +1,4 @@
-# TicTacToe-CLI
+# TicTacToe-CLI v1.2
 <p align="left"><img src="https://i.imgur.com/mMUP6Pd.png"/></p>
 <h2>The Interesting TicTacToe Game In CLI Version</h2>
 
